@@ -1,0 +1,32 @@
+{
+  "name": "Config-Example",
+  "version": "1.0.0",
+  "description": "A simple example to show using a config file and env file",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Cody Van De Mark",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-redis": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.9",
+    "node-env-file": "^0.1.8",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "url": "^0.11.0"
+  }
+}
